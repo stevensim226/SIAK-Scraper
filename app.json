@@ -1,14 +1,20 @@
 {
   "expo": {
-    "name": "SiakScraper",
+    "android": {
+      "package": "com.matsuzakasteven.siakscraper",
+      "permissions" : [],
+      "icon" : "./assets/bird_icon.png"
+    },
+    "sdkVersion": "38.0.0",
+    "name": "Siak Scraper",
     "slug": "SiakScraper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/bird_icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#87CEEB"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
